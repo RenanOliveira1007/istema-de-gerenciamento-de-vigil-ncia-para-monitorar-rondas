@@ -230,7 +230,7 @@ body {
 }
 .pagina_vigilantes .footer a {
     padding: 10px 20px;
-    background-color: #6c757d; /* Alterado para cinza */
+    background-color: #6c757d; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -314,12 +314,13 @@ body {
             margin-top: 20px;
         }
         .footer a {
-            text-decoration: none;
             padding: 10px 20px;
-            background-color: #007bff;
+            background-color: #6c757d;
             color: white;
+            text-decoration: none;
             border-radius: 5px;
             display: inline-block;
+            width: auto;
         }
         .footer a.button-gray {
             background-color: #6c757d;
@@ -330,40 +331,40 @@ body {
 
         /* historico */
 
-        .pagina_vigilantes h1 {
+        .pagina-historico h1 {
             text-align: center;
             font-size: 24px;
             color: #444;
         }
-        .pagina_vigilante table {
+        .pagina-historico table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
         }
-        .pagina_vigilante th, .pagina_vigilante td {
+        .pagina-historico th, .pagina-historico td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
         }
-        .pagina_vigilante th {
+        .pagina-historico th {
             background-color: #f7f7f7;
         }
-        .pagina_vigilante .message, .pagina_vigilante .error {
+        .ppagina-historico .message, .pagina-historico .error {
             padding: 10px;
             border-radius: 5px;
             margin-top: 20px;
         }
-        .pagina_vigilante .message {
+        .pagina-historico .message {
             background-color: #d4edda;
             color: #155724;
             border: 1px solid #c3e6cb;
         }
-        .pagina_vigilante .error {
+        .pagina-historico .error {
             background-color: #f8d7da;
             color: #721c24;
             border: 1px solid #f5c6cb;
         }
-        .pagina_vigilante .button {
+        .pagina-historico .button {
             display: block;
             width: 100%;
             padding: 10px;
@@ -375,47 +376,48 @@ body {
             margin-top: 20px;
             cursor: pointer;
         }
-        .pagina_vigilante .button:hover {
+        .pagina-historico .button:hover {
             background-color: #0056b3;
         }
-        .pagina_vigilante .button-gray {
+        .pagina-historico .button-gray {
             background-color: #6c757d;
         }
-        .pagina_vigilante .button-gray:hover {
+        .pagina-historicoe .button-gray:hover {
             background-color: #5a6268;
         }
-        .pagina_vigilante .hidden {
+        .pagina-historico .hidden {
             display: none;
         }
-        .pagina_vigilante .form-group {
+        .pagina-historico .form-group {
             margin-bottom: 20px;
         }
-        .pagina_vigilante label {
+        .pagina-historico label {
             display: block;
             margin-bottom: 8px;
             font-weight: bold;
         }
-        .pagina_vigilante input[type="password"], .pagina_vigilante select, .pagina_vigilante input[type="date"] {
+        .pagina-historico input[type="password"], .pagina-historico select, .pagina-historico input[type="date"] {
             width: 100%;
             padding: 8px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
-        .pagina_vigilante .footer {
+        .pagina-historico .footer {
             text-align: center;
             margin-top: 20px;
         }
-        .pagina_vigilante .footer a {
-            text-decoration: none;
+        .pagina-historico .footer a {
             padding: 10px 20px;
-            background-color: #007bff;
+            background-color: #6c757d;
             color: white;
+            text-decoration: none;
             border-radius: 5px;
             display: inline-block;
+            width: auto;
         }
-        .pagina_vigilante .footer a.button-gray {
+        .pagina-historico .footer a.button-gray {
             background-color: #6c757d;
         }
-        .pagina_vigilante .footer a.button-gray:hover {
+        .pagina-historico .footer a.button-gray:hover {
             background-color: #5a6268;
         }
