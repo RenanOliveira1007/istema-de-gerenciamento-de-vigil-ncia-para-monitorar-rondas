@@ -41,7 +41,7 @@ try {
     <img src="https://i.imgur.com/LG9X0st.png" alt="Logo" class="logo">
     
     <!-- Título  -->
-    <h1>Página Principal</h1>
+    <h1>Gerenciador de rondas</h1>
     
     <!-- Botões principais -->
     <div class="button-container">
