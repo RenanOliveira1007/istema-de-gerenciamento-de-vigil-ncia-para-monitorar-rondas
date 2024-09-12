@@ -1,3 +1,3 @@
-# monitorar-rondas
+# Gerenciador de rondas
 
 Este projeto é um sistema de gestão de rondas de vigilantes, desenvolvido para ajudar no controle das atividades de segurança de uma empresa local. Utilizando tecnologias como PHP, HTML, CSS e PostgreSQL, ele permite registrar novas rondas, gerenciar a equipe de vigilantes e acompanhar o histórico de rondas realizadas. O sistema conta com uma interface simples e direta, onde os usuários podem registrar horários de início e fim das rondas, além de incluir observações. O histórico pode ser filtrado e também há a opção de exclusão mediante uma senha master para maior segurança. O foco principal é facilitar a organização e o monitoramento do trabalho dos vigilantes, garantindo um registro preciso de suas atividades no dia a dia.
