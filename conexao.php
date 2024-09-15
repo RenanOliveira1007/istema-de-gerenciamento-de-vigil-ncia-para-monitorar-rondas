@@ -1,11 +1,11 @@
 <?php
 // conexao.php
 
-$host = '34.121.238.234';
+$host = 'serve';
 $port = '5432';
 $dbname = 'banco_vgbel';
-$user = 'test';
-$pass = '812663';
+$user = 'webadmin';
+$pass = '******';
 
 try {
     $pdo = new PDO("pgsql:host=$host;port=$port;dbname=$dbname", $user, $pass);
