@@ -1,11 +1,11 @@
 <?php
 // conexao.php
 
-$host = 'serve';
-$port = '5432';
+$host = 'node201032-env-0724498.sp1.br.saveincloud.net.br';
+$port = '11907';
 $dbname = 'banco_vgbel';
 $user = 'webadmin';
-$pass = '******';
+$pass = 'ipyUvBp2J2';
 
 try {
     $pdo = new PDO("pgsql:host=$host;port=$port;dbname=$dbname", $user, $pass);
